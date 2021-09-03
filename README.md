@@ -1,2 +1,2 @@
 # CodingTest
-코딩테스트 준비(BOF)
+코딩테스트 준비(BOJ)
