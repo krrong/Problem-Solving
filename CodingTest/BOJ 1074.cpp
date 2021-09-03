@@ -20,11 +20,11 @@ int check(int size, int r, int c) {
 	if (r < half && c >= half) {
 		return half * half + check(size - 1, r, c - half);
 	}
-	// Quadrant 3
+	// Quadrant 4
 	if (r >= half && c < half) {
 		return 2 * half * half + check(size - 1, r - half, c);
 	}
-	// Quadrant 4
+	// Quadrant 3
 	else{
 		return 3 * half * half + check(size - 1, r - half, c - half);
 	}
