@@ -37,4 +37,6 @@ int main() {
 
 	cin >> n >> r >> c;
 	cout << check(n, r, c);
+
+	return 0;
 }
