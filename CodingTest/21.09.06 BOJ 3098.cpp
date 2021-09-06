@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -24,7 +24,7 @@ int main() {
 		friends[a][b] = 1;
 		friends[b][a] = 1;
 
-		cnt = cnt + 2;	// Ä£±¸ ¼ö 2¸í¾¿ Ä«¿îÆ®!
+		cnt = cnt + 2;	// ì¹œêµ¬ ìˆ˜ 2ëª…ì”© ì¹´ìš´íŠ¸!
 	}
 
 	// repeat for all is friends
