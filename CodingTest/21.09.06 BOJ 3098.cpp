@@ -24,7 +24,7 @@ int main() {
 		friends[a][b] = 1;
 		friends[b][a] = 1;
 
-		cnt = cnt + 2;	// 模备 荐 2疙究 墨款飘
+		cnt = cnt + 2;	// 模备 荐 2疙究 墨款飘!
 	}
 
 	// repeat for all is friends
