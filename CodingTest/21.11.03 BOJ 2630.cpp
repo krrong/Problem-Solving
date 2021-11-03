@@ -80,6 +80,5 @@ int main() {
 	rec(1, 1, n);
 	cout << white << '\n';
 	cout << blue << '\n';
-
 	return 0;
 }
