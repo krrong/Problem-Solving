@@ -20,9 +20,11 @@ int main() {
 		string tmp = to_string(answer);
 
 		for (int i = 0; i < tmp.size(); i++) {
+			// 같으면 pointer 증가
 			if (str[point] == tmp[i]) {
 				point++;
 			}
+			// 마지막을 가리키면 출력 후 종료
 			if (point == size) {
 				cout << answer;
 				return 0;
