@@ -18,9 +18,13 @@ void bfs() {
 		q.pop();
 
 		for (int i = 0; i < computers[cur].size(); i++) {
+			// 방문하지 않았으면
 			if (visit[computers[cur][i]] == false) {
+				// 방문 여부 체크
 				visit[computers[cur][i]] = true;
+				// 큐에 추가
 				q.push(computers[cur][i]);
+				// 1번 컴퓨터를 통해 감염되는 컴퓨터 수 추가
 				answer++;
 			}
 		}
@@ -40,6 +44,7 @@ int main() {
 		int a, b;
 		cin >> a >> b;
 
+		// 무향 그래프
 		computers[a].push_back(b);
 		computers[b].push_back(a);
 	}
