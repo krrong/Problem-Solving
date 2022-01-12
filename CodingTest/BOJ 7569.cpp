@@ -9,7 +9,7 @@ int dist[101][101][101];			// 거리저장
 int dx[6] = { 0,0,0,0,-1,1 };		// x축 이동
 int dy[6] = { 0,0,-1,1,0,0 };		// y축 이동
 int dz[6] = { -1,1,0,0,0,0 };		// z축 이동
-queue <pair<int, pair<int, int>>> q;
+queue <pair<int, pair<int, int>>> q;	// (z축, (x축, y축))값 저장
 
 void print() {
 	for (int i = 0; i < H; i++) {
